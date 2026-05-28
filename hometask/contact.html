@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+            margin: 0px;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+        }
+        .contact{
+            display: flex;
+            margin: 0 auto;
+            flex-direction: column;
+            width: 300px;
+        }
+        </style>
+</head>
+<body>
+    <div class="contact">
+        <h1>Student registration Form </h1>
+    <form method="post">
+        <label>Name: </label>
+        <input type="text" placeholder="username">
+            <br><br>
+        <label>Email: </label>
+        <input type="email" placeholder="email" required>
+            <br><br>
+        <label>Password: </label>
+        <input type="password" placeholder="password" required>
+            <br><br>
+            <label>Age: </label>
+            <input type="number" placeholder="age">
+            <br><br>
+            <label>DOB: </label>
+            <input type="date" placeholder="dob">
+            <br><br>
+            <label>Gender: </label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+            <label>Skills: </label>
+            <input type="checkbox" name="skills" value="html">HTML
+            <input type="checkbox" name="skills" value="css">CSS
+            <input type="checkbox" name="skills" value="javascript">JavaScript
+            <input type="checkbox" name="skills" value="bootstrap">Bootstrap
+            <br><br>
+            <label>Department: </label>
+            <select name="department">
+                <option value="ECE">ECE</option>
+                <option value="CS">CS</option>
+                <option value="AIDS">AIDS</option>
+            </select>
+            <br><br>
+            <label>Address: </label>
+            <input type="text" placeholder="Enter address">
+            <br><br>
+            <label>Upload Document: </label>
+            <input type="file" name="document">
+            <br><br>
+            <label>CGPA: </label>
+            <input type="range" name="cgpa" min="0" max="10">
+            <br><br>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+    </form>
+    </div>
+    <h3>Contact us</h3>
+    <p>Phone: 123-456-7890</p>
+    <p>Email: info@vijayy.talks</p>
+
+</body>
+</html>
